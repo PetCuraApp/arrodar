@@ -94,7 +94,7 @@ export default function Header() {
       </header>
 
       {/* Mobile Header */}
-      <div className="md:hidden fixed top-4 right-4 z-50">
+      <div className="md:hidden fixed top-4 right-14 z-50">
         <button
           onClick={toggleMobileMenu}
           className="text-primary focus:outline-none bg-white rounded-full p-2 shadow-lg"
